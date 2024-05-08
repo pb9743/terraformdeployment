@@ -7,7 +7,7 @@ resource "aws_iam_role_policy_attachment" "attach_launch_policy" {
 
 # Create Instance Profile
 
-resource "aws_iam_instance_profile" "ec2_launch_profile_1" {
-  name = "ec2_launch_profile_1"
+resource "aws_iam_instance_profile" "ec2_launch_profile_2" {
+  name = "ec2_launch_profile_2"
   role = aws_iam_role.ec2_launch_role.name
 }
