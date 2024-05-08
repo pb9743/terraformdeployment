@@ -1,4 +1,4 @@
-variable "access_key" {
+variable "aws_access_key_id" {
 }
-variable "secret_key" {  
+variable "aws_secret_access_key" {  
 }
